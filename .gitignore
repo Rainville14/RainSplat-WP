@@ -1,25 +1,34 @@
 # Ignore everything in the root except the "wp-content" directory.
-*
-!.gitignore
+# *
+!.gitignore*
 !wp-content/
 wp-config.php
+wp-includes
 
 # Ignore everything in the "wp-content" directory, except the "plugins"
 # and "themes" directories.
-wp-content/*
-!wp-content/plugins/
-!wp-content/themes/
+# wp-content/*
+# !wp-content/plugins/
+# !wp-content/themes/
 
 # Ignore everything in the "plugins" directory, except the plugins you
 # specify (see the commented-out examples for hints on how to do this.)
 wp-content/plugins*
+wp-content/themes/genesis-block-theme
+wp-content/themes/twentytwentyone
+wp-content/themes/twentytwentytwo
+wp-content/themes/twentytwentythree
+wp-content/uploads
+wp-content/upgrade
+wp-admin
+
 # !wp-content/plugins/my-single-file-plugin.php
 # !wp-content/plugins/my-directory-plugin/
 
 # Ignore everything in the "themes" directory, except the themes you
 # specify (see the commented-out example for a hint on how to do this.)
-wp-content/themes/*
-!wp-content/themes/rainsplat
+# wp-content/themes/*
+# !wp-content/themes/rainsplat
 
 !pinterest-7b5fe.html
 !.github*
