@@ -5,7 +5,7 @@ on:
       deployment_dest:
         description: 'Target server directory, leave blank for root directory'
         required: false
-        default: ''
+        default: '/wp-content/themes/rainsplat/'
 
 jobs:
   deploy:
