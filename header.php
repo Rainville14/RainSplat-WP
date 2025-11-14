@@ -29,7 +29,6 @@
 			<div class="site-identity clear">
 				<!-- Site title and logo -->
 				<?php genesis_block_theme_title_logo(); ?>
-				Code Push Test
 				<div class="top-navigation-right">
 					<!-- Main navigation -->
 					<nav id="site-navigation" class="main-navigation" aria-label="<?php esc_attr_e( 'Main', 'genesis-block-theme' ); ?>">
